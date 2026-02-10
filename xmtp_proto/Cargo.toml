@@ -63,7 +63,7 @@ walkdir = "2.5"
 color-eyre.workspace = true
 relative-path = "2"
 xshell = "0.2"
-pbjson-build = "0.8"
+pbjson-build = "0.9"
 tonic = { workspace = true, features = ["codegen"] }
 # this puts protoc on path with std::env::set_var("PROTOC", protobuf_src::protoc());
 # but takes forever to compile
