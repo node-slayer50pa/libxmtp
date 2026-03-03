@@ -104,11 +104,11 @@ xmtp_proto = { workspace = true }
 
 # Optional/Features
 alloy = { workspace = true, optional = true }
-coset = { version = "0.3", optional = true }
+coset = { version = "0.4", optional = true }
 fdlimit = { workspace = true, optional = true }
 futures-executor = { version = "0.3", optional = true }
 mockall = { workspace = true, optional = true }
-passkey = { version = "0.4", optional = true }
+passkey = { version = "0.5", optional = true }
 public-suffix = { version = "0.1.2", optional = true }
 rstest = { workspace = true, features = ["async-timeout"], optional = true }
 url = { workspace = true, optional = true }
@@ -148,7 +148,7 @@ web-sys.workspace = true
 
 [dev-dependencies]
 alloy.workspace = true
-coset = { version = "0.3" }
+coset = { version = "0.4" }
 diesel = { workspace = true, features = [
   "returning_clauses_for_sqlite_3_35",
   "sqlite",
@@ -162,7 +162,7 @@ mockall.workspace = true
 once_cell.workspace = true
 openmls = { workspace = true, features = ["test-utils"] }
 openmls_basic_credential.workspace = true
-passkey = { version = "0.4" }
+passkey = { version = "0.5" }
 public-suffix = { version = "0.1.2" }
 rstest = { workspace = true, features = ["async-timeout"] }
 rstest_reuse = { workspace = true }
@@ -189,7 +189,7 @@ xmtp_api_grpc = { workspace = true, features = ["test-utils"] }
 ctor.workspace = true
 mockito = "1.6.1"
 openmls = { workspace = true }
-tempfile = "3.15.0"
+tempfile = "3.26.0"
 
 [target.'cfg(all(target_family = "wasm", target_os = "unknown"))'.dev-dependencies]
 openmls = { workspace = true, features = ["js"] }
